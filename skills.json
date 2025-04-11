@@ -1799,12 +1799,6 @@
         "class": "Nightblade",
         "skillTree": "Siphoning"
     },
-    "ability_sorcerer_storm_atronach.png": {
-        "skillName": "Summon Storm Atronach",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_greater_storm_atronach.png": {
         "skillName": "Greater Storm Atronach",
         "mainCategory": "Class",
@@ -1817,44 +1811,14 @@
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
     },
-    "ability_sorcerer_unstable_fimiliar.png": {
-        "skillName": "Summon Unstable Familiar",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
-	"ability_sorcerer_unstable_fimiliar_summoned.png": {
-        "skillName": "Summon Unstable Familiar Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_unstable_clannfear.png": {
         "skillName": "Summon Unstable Clannfear",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
     },
-	"ability_sorcerer_unstable_clannfear_summoned.png": {
-        "skillName": "Summon Unstable Clannfear Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_speedy_familiar.png": {
         "skillName": "Summon Volatile Familiar",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
-	"ability_sorcerer_speedy_familiar_summoned.png": {
-        "skillName": "Summon Volatile Familiar Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
-    "ability_sorcerer_daedric_curse.png": {
-        "skillName": "Daedric Curse",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
@@ -1871,44 +1835,14 @@
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
     },
-    "ability_sorcerer_lightning_prey.png": {
-        "skillName": "Summon Winged Twilight",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-	},
-	"ability_sorcerer_lightning_prey_summoned.png": {
-        "skillName": "Summon Winged Twilight Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_storm_prey.png": {
         "skillName": "Summon Twilight Matriarch",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
     },
-	"ability_sorcerer_storm_prey_summoned.png": {
-        "skillName": "Summon Twilight Matriarch Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_lightning_matriarch.png": {
         "skillName": "Summon Twilight Tormentor",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
-	"ability_sorcerer_lightning_matriarch_summoned.png": {
-        "skillName": "Summon Twilight Tormentor Summoned",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
-    "ability_sorcerer_hurricane.png": {
-        "skillName": "Conjured Ward",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
@@ -1925,12 +1859,6 @@
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
     },
-    "ability_sorcerer_bound_armor.png": {
-        "skillName": "Bound Armor",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Daedric Summoning"
-    },
     "ability_sorcerer_bound_aegis.png": {
         "skillName": "Bound Aegis",
         "mainCategory": "Class",
@@ -1942,12 +1870,6 @@
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Daedric Summoning"
-    },
-    "ability_sorcerer_monsoon.png": {
-        "skillName": "Negate Magic",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
     },
     "ability_sorcerer_rushing_winds.png": {
         "skillName": "Absorption Field",
@@ -1961,20 +1883,8 @@
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
     },
-    "ability_sorcerer_thunderclap.png": {
-        "skillName": "Crystal Shard",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
     "ability_sorcerer_thunderstomp.png": {
         "skillName": "Crystal Fragments",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
-	"ability_sorcerer_thunder_burst.png": {
-        "skillName": "Crystal Fragments Procked",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
@@ -1991,12 +1901,6 @@
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
     },
-    "ability_sorcerer_twister.png": {
-        "skillName": "Shattering Spines",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
     "ability_sorcerer_crushing_winds.png": {
         "skillName": "Vibrant Shroud",
         "mainCategory": "Class",
@@ -2005,12 +1909,6 @@
     },
     "ability_sorcerer_dark_fog.png": {
         "skillName": "Rune Prison",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
-    "ability_sorcerer_weakening_fog.png": {
-        "skillName": "Defensive Rune",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
@@ -2027,20 +1925,8 @@
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
     },
-    "ability_sorcerer_dark_conversion.png": {
-        "skillName": "Dark Conversion",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
     "ability_sorcerer_dark_deal.png": {
         "skillName": "Dark Deal",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Dark Magic"
-    },
-    "ability_sorcerer_daedric_mines.png": {
-        "skillName": "Daedric Mines",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
@@ -2057,12 +1943,6 @@
         "class": "Sorcerer",
         "skillTree": "Dark Magic"
     },
-    "ability_sorcerer_overload.png": {
-        "skillName": "Overload",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
     "ability_sorcerer_energy_overload.png": {
         "skillName": "Energy Overload",
         "mainCategory": "Class",
@@ -2071,12 +1951,6 @@
     },
     "ability_sorcerer_power_overload.png": {
         "skillName": "Power Overload",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
-    "ability_sorcerer_mage_fury.png": {
-        "skillName": "Mages' Fury",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Storm Calling"
@@ -2093,12 +1967,6 @@
         "class": "Sorcerer",
         "skillTree": "Storm Calling"
     },
-    "ability_sorcerer_lightning_form.png": {
-        "skillName": "Lightning Form",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
     "ability_sorcerer_boundless_storm.png": {
         "skillName": "Boundless Storm",
         "mainCategory": "Class",
@@ -2107,12 +1975,6 @@
     },
     "ability_sorcerer_thundering_presence.png": {
         "skillName": "Hurricane",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
-    "ability_sorcerer_lightning_splash.png": {
-        "skillName": "Lightning Splash",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Storm Calling"
@@ -2129,12 +1991,6 @@
         "class": "Sorcerer",
         "skillTree": "Storm Calling"
     },
-    "ability_sorcerer_surge.png": {
-        "skillName": "Surge",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
     "ability_sorcerer_critical_surge.png": {
         "skillName": "Critical Surge",
         "mainCategory": "Class",
@@ -2143,12 +1999,6 @@
     },
     "ability_sorcerer_power_surge.png": {
         "skillName": "Power Surge",
-        "mainCategory": "Class",
-        "class": "Sorcerer",
-        "skillTree": "Storm Calling"
-    },
-    "ability_sorcerer_bolt_escape.png": {
-        "skillName": "Bolt Escape",
         "mainCategory": "Class",
         "class": "Sorcerer",
         "skillTree": "Storm Calling"

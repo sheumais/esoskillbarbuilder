@@ -218,7 +218,7 @@ fetch('skills.json')
         const skillPool = document.querySelector('.skill-pool');
         const mainCategoryOrder = ['Class', 'Non Class'];
         const classOrder = [
-            'Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Warden', 'Necromancer', 'Weapon', 'Armor', 'World', 'Guild', 'Alliance War'
+            'Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Sorcerer', 'Warden', 'Necromancer', 'Weapon', 'Armor', 'World', 'Guild', 'Alliance War'
         ];
         const nestedGroups = {};
         Object.entries(skillData).forEach(([fileName, data]) => {

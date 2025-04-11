@@ -117,6 +117,15 @@ document.querySelectorAll('.slot').forEach(slot => {
         slot.classList.remove('drag-over');
     });
 
+
+    function setDataAttributeOrRemove(el, key, value) {
+        if (value !== undefined && value !== '') {
+            el.dataset[key] = value;
+        } else {
+            delete el.dataset[key];
+        }
+    }
+    
     slot.addEventListener('drop', (e) => {
         e.preventDefault();
         dropSucceeded = true;
@@ -131,10 +140,12 @@ document.querySelectorAll('.slot').forEach(slot => {
 
             const sourceData = sourceSlot.dataset.skillInfo;
             const sourceDataID = sourceSlot.dataset.skillID;
-            sourceSlot.dataset.skillInfo = slot.dataset.skillInfo;
-            sourceSlot.dataset.skillID = slot.dataset.skillID;
-            slot.dataset.skillInfo = sourceData;
-            slot.dataset.skillID = sourceDataID;
+            const targetData = slot.dataset.skillInfo;
+            const targetDataID = slot.dataset.skillID;
+            setDataAttributeOrRemove(sourceSlot, 'skillInfo', targetData);
+            setDataAttributeOrRemove(sourceSlot, 'skillID', targetDataID);
+            setDataAttributeOrRemove(slot, 'skillInfo', sourceData);
+            setDataAttributeOrRemove(slot, 'skillID', sourceDataID);
 
         } else if (draggedImageSrc) {
             skillElement = document.querySelector(`img[src="${draggedImageSrc}"]`);

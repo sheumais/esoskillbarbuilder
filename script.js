@@ -75,7 +75,7 @@ function updateUsedSkillLines() {
         const info = slot.dataset.skillInfo;
         if (info) {
             const [skillClass, skillTree] = info.split(':');
-            if (['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Warden', 'Necromancer'].includes(skillClass)) {
+            if (['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Sorcerer', 'Warden', 'Necromancer'].includes(skillClass)) {
                 usedClassSkillLines.add(`${skillClass}:${skillTree}`);
             }
         }
@@ -173,7 +173,7 @@ function hideUnusedClassSkillLines(usedSkillLines) {
         if (!skillLine) return;
 
         const [skillClass] = skillLine.split(':');
-        const isClassSkill = ['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Warden', 'Necromancer'].includes(skillClass);
+        const isClassSkill = ['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Sorcerer', 'Warden', 'Necromancer'].includes(skillClass);
 
         if (isClassSkill) {
             if (!usedSkillLines.has(skillLine)) {
@@ -199,7 +199,7 @@ function showAllClassSkillLines() {
         if (!skillLine) return;
 
         const [skillClass] = skillLine.split(':');
-        const isClassSkill = ['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Warden', 'Necromancer'].includes(skillClass);
+        const isClassSkill = ['Arcanist', 'Nightblade', 'Templar', 'Dragonknight', 'Sorcerer', 'Warden', 'Necromancer'].includes(skillClass);
 
         if (isClassSkill) {
             container.style.display = '';

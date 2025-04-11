@@ -156,6 +156,7 @@ document.querySelectorAll('.slot').forEach(slot => {
         if (!dropSucceeded && sourceSlot) {
             sourceSlot.innerHTML = '';
             delete sourceSlot.dataset.skillInfo;
+            delete sourceSlot.dataset.skillID;
         }
 
         draggedImageSrc = null;

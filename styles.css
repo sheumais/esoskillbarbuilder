@@ -97,7 +97,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   scrollbar-color: #444 #2c2c2c;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 .skill {

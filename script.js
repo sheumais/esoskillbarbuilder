@@ -124,7 +124,7 @@ function updateUsedSkillLines() {
 
 
 document.querySelectorAll('.skill').forEach(skill => {
-    skill.addEventListener('dragstart', (event) => {
+    skill.addEventListener('dragstart', () => {
         draggedImageSrc = skill.getAttribute('src');
         sourceSlot = null;
         dropSucceeded = false;
@@ -379,6 +379,12 @@ fetch('skills.json')
                                 draggedImageSrc = img.getAttribute('src');
                                 sourceSlot = null;
                                 dropSucceeded = false;
+                                const skillPool = document.querySelector('.skill-pool');
+                                skillPool.style.overflowY = 'hidden';
+                            });
+                            img.addEventListener('dragend', () => {
+                                const skillPool = document.querySelector('.skill-pool');
+                                skillPool.style.overflowY = 'auto';
                             });
 
                             iconContainer.appendChild(img);

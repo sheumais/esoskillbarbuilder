@@ -62,12 +62,45 @@ function loadSetupFromURL() {
     updateUsedSkillLines();
 }
 
+function updateResetButtonVisibility() {
+    const hasSkills = Array.from(document.querySelectorAll('.slot')).some(slot => slot.dataset.skillID);
+    const resetButton = document.getElementById('reset');
+
+    if (hasSkills) {
+        resetButton.classList.add('visible');
+    } else {
+        resetButton.classList.remove('visible');
+    }
+}
+
+function resetSkillSlots() {
+    document.querySelectorAll('.slot').forEach(slot => {
+        slot.innerHTML = '';
+        delete slot.dataset.skillInfo;
+        delete slot.dataset.skillID;
+    });
+    updateUsedSkillLines();
+    updateResetButtonVisibility();
+    let resetRotation = 360;
+    const resetButton = document.getElementById('reset');
+    resetButton.style.setProperty('--base-rotation', `${resetRotation}deg`);
+    resetButton.style.transform = `rotate(${resetRotation}deg)`;
+    setTimeout(() => {
+        const stillVisible = resetButton.classList.contains('visible');
+        if (!stillVisible) {
+            resetRotation = 0;
+            resetButton.removeAttribute('style');
+        }
+    }, 400);
+}
+
 function allowDrop(event) {
     event.preventDefault();
 }
 
 function updateUsedSkillLines() {
     generateShareableURL()
+    updateResetButtonVisibility();
     const slots = document.querySelectorAll('.slot');
     const usedClassSkillLines = new Set();
 
@@ -153,7 +186,20 @@ document.querySelectorAll('.slot').forEach(slot => {
             skillElement = document.querySelector(`img[src="${draggedImageSrc}"]`);
             const skillInfo = skillElement?.dataset?.skillInfo || '';
             const skillIDInfo = skillElement?.dataset?.skillID || '';
-            slot.innerHTML = `<img src="${draggedImageSrc}">`;
+            slot.innerHTML = '';
+            const newImg = document.createElement('img');
+            newImg.src = draggedImageSrc;
+            newImg.alt = skillElement?.alt || '';
+            newImg.title = skillElement?.title || '';
+            newImg.setAttribute('draggable', 'true');
+            newImg.dataset.skillInfo = skillInfo;
+            newImg.dataset.skillID = skillIDInfo;
+            newImg.addEventListener('dragstart', () => {
+                draggedImageSrc = newImg.getAttribute('src');
+                sourceSlot = null;
+                dropSucceeded = false;
+            });
+            slot.appendChild(newImg);
             slot.dataset.skillInfo = skillInfo;
             slot.dataset.skillID = skillIDInfo;
         }

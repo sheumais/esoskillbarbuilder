@@ -147,6 +147,8 @@ document.querySelectorAll('.slot').forEach(slot => {
             setDataAttributeOrRemove(slot, 'skillInfo', sourceData);
             setDataAttributeOrRemove(slot, 'skillID', sourceDataID);
 
+        } else if (sourceSlot === slot) {
+            // do nothing
         } else if (draggedImageSrc) {
             skillElement = document.querySelector(`img[src="${draggedImageSrc}"]`);
             const skillInfo = skillElement?.dataset?.skillInfo || '';

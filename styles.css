@@ -105,11 +105,8 @@ body {
   width: 64px;
   height: 64px;
   cursor: pointer;
-  border: 2px solid transparent;
-}
-
-.skill img:hover {
-  border-color: gold;
+  border-radius: 5px;
+  margin: 3px;
 }
 
 .skill-icon-row {

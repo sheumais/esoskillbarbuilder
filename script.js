@@ -270,6 +270,19 @@ function showAllClassSkillLines() {
     });
 }
 
+function setRandomFavicon() {
+    const skillIds = Object.keys(skillTable);
+    const randomSkillID = skillIds[Math.floor(Math.random() * skillIds.length)];
+    const randomSkill = skillTable[randomSkillID];
+
+    let favicon = document.querySelector("link[rel='icon']");
+    if (!favicon) {
+        favicon = document.createElement("link");
+        favicon.rel = "icon";
+        document.head.appendChild(favicon);
+    }
+    favicon.href = `icons/${randomSkill.fileName}`;
+}
 
 fetch('skills.json')
     .then(response => response.json())
@@ -348,12 +361,10 @@ fetch('skills.json')
                         const treeLabel = document.createElement('div');
                         treeLabel.classList.add('skill-subsubgroup-label');
                         
-                        // Wrapper for text + icon
                         const labelWrapper = document.createElement('div');
                         labelWrapper.classList.add('skill-line-label-wrapper');
                         labelWrapper.appendChild(document.createTextNode(skillTree));
                         
-                        // Add icon if mainCat is true
                         if (mainCat == "Class") {
                             const icon = document.createElement('img');
                             const iconFileName = `gp_class_${skillClass.toLowerCase()}.png`;
@@ -419,4 +430,5 @@ fetch('skills.json')
             });
         });
         loadSetupFromURL();
+        setRandomFavicon();
     });

@@ -137,4 +137,36 @@ body {
   margin-top: 1vh;
   margin-bottom: 1vh;
   text-transform: uppercase;
+  text-shadow: 2px 1.5px black;
+}
+
+.skill-line-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  filter: drop-shadow(1px 1px black);
+}
+
+.skill-line-label-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; 
+}
+
+.skill-line-link {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.skill-line-link:visited {
+  color: #f5f5f5;
+}
+
+.skill-line-link:hover {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+
+.skill-line-link:active {
+  color: #f5f5f5;
 }

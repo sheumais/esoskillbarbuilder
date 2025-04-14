@@ -347,7 +347,31 @@ fetch('skills.json')
                     Object.entries(skillTrees).forEach(([skillTree, skills]) => {
                         const treeLabel = document.createElement('div');
                         treeLabel.classList.add('skill-subsubgroup-label');
-                        treeLabel.textContent = skillTree;
+                        
+                        // Wrapper for text + icon
+                        const labelWrapper = document.createElement('div');
+                        labelWrapper.classList.add('skill-line-label-wrapper');
+                        labelWrapper.appendChild(document.createTextNode(skillTree));
+                        
+                        // Add icon if mainCat is true
+                        if (mainCat == "Class") {
+                            const icon = document.createElement('img');
+                            const iconFileName = `gp_class_${skillClass.toLowerCase()}.png`;
+                            icon.src = `icons/${iconFileName}`;
+                            icon.classList.add('skill-line-icon');
+                            labelWrapper.appendChild(icon);
+                            const link = document.createElement('a');
+                            const formattedClass = skillClass.toLowerCase();
+                            const formattedTree = skillTree.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
+                            link.href = `https://eso-hub.com/en/skills/${formattedClass}/${formattedTree}`;
+                            link.target = '_blank';
+                            link.classList.add('skill-line-link');
+                            link.appendChild(labelWrapper);
+                            treeLabel.appendChild(link);
+                        } else {
+                            treeLabel.appendChild(labelWrapper);
+                        }
+                        
                         skillPool.appendChild(treeLabel);
 
                         const iconContainer = document.createElement('div');

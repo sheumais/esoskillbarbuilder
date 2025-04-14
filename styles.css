@@ -83,6 +83,7 @@ body {
   left: 2px;
   width: 64px;
   height: 64px;
+  cursor: pointer;
 }
 
 .skill-pool {

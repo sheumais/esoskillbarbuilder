@@ -2459,6 +2459,12 @@
         "class": "World",
         "skillTree": "Soul Magic"
     },
+    "ability_otherclass_003_a.png": {
+        "skillName": "Wield Soul",
+        "mainCategory": "Non Class",
+        "class": "World",
+        "skillTree": "Soul Magic"
+    },
     "ability_otherclass_001_b.png": {
         "skillName": "Consuming Trap",
         "mainCategory": "Non Class",

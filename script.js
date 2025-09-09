@@ -4,6 +4,149 @@ let dropSucceeded = false;
 let skillID = 0;
 const skillTable = {};
 
+const touchDrag = {
+  clone: null,
+  startX: 0,
+  startY: 0,
+  originImg: null,
+  originSlot: null
+};
+
+function enableTouchOnImg(img, originSlot = null) {
+  img.addEventListener('touchstart', (ev) => {
+    if (ev.touches.length > 1) return;
+    const t = ev.touches[0];
+    ev.preventDefault();
+
+    draggedImageSrc = img.getAttribute('src');
+    sourceSlot = originSlot;
+    dropSucceeded = false;
+
+    touchDrag.originImg = img;
+    touchDrag.originSlot = originSlot;
+
+    const clone = img.cloneNode(true);
+    const rect = img.getBoundingClientRect();
+    clone.style.position = 'fixed';
+    clone.style.left = (t.clientX - (rect.width / 2 || 24)) + 'px';
+    clone.style.top = (t.clientY - (rect.height / 2 || 24)) + 'px';
+    clone.style.pointerEvents = 'none';
+    clone.style.zIndex = 9999;
+    clone.classList.add('touch-drag-clone');
+    document.body.appendChild(clone);
+    touchDrag.clone = clone;
+
+    touchDrag.startX = t.clientX;
+    touchDrag.startY = t.clientY;
+  }, { passive: false });
+}
+
+document.addEventListener('touchmove', (ev) => {
+  if (!touchDrag.clone) return;
+  const t = ev.touches[0];
+  ev.preventDefault();
+  const rect = touchDrag.clone.getBoundingClientRect();
+  touchDrag.clone.style.left = (t.clientX - (rect.width / 2 || 24)) + 'px';
+  touchDrag.clone.style.top = (t.clientY - (rect.height / 2 || 24)) + 'px';
+}, { passive: false });
+
+document.addEventListener('touchend', (ev) => {
+  if (!touchDrag.clone) return;
+  const t = ev.changedTouches[0];
+
+  const el = document.elementFromPoint(t.clientX, t.clientY);
+  const targetSlot = el ? el.closest('.slot') : null;
+
+  if (targetSlot) {
+    if (touchDrag.originSlot && touchDrag.originSlot !== targetSlot) {
+      const tempHTML = targetSlot.innerHTML;
+      const tempSkillInfo = targetSlot.dataset.skillInfo;
+      const tempSkillID = targetSlot.dataset.skillID;
+
+      targetSlot.innerHTML = touchDrag.originSlot.innerHTML;
+      if (touchDrag.originSlot.dataset.skillInfo) targetSlot.dataset.skillInfo = touchDrag.originSlot.dataset.skillInfo;
+      if (touchDrag.originSlot.dataset.skillID) targetSlot.dataset.skillID = touchDrag.originSlot.dataset.skillID;
+      else delete targetSlot.dataset.skillInfo;
+
+      touchDrag.originSlot.innerHTML = tempHTML;
+      if (tempSkillID) {
+        touchDrag.originSlot.dataset.skillInfo = tempSkillInfo;
+        touchDrag.originSlot.dataset.skillID = tempSkillID;
+      } else {
+        delete touchDrag.originSlot.dataset.skillInfo;
+        delete touchDrag.originSlot.dataset.skillID;
+      }
+    } else {
+      const origin = touchDrag.originImg;
+      if (origin?.dataset?.skillID) {
+        const newImg = document.createElement('img');
+        newImg.src = origin.getAttribute('src');
+        newImg.alt = origin.alt || '';
+        newImg.title = origin.title || '';
+        newImg.setAttribute('draggable', 'true');
+
+        newImg.dataset.skillInfo = origin.dataset.skillInfo;
+        newImg.dataset.skillID = origin.dataset.skillID;
+
+        newImg.addEventListener('dragstart', () => {
+          draggedImageSrc = newImg.getAttribute('src');
+          sourceSlot = null;
+          dropSucceeded = false;
+        });
+        enableTouchOnImg(newImg, targetSlot);
+
+        targetSlot.innerHTML = '';
+        targetSlot.appendChild(newImg);
+        targetSlot.dataset.skillInfo = newImg.dataset.skillInfo;
+        targetSlot.dataset.skillID = newImg.dataset.skillID;
+      } else {
+        targetSlot.innerHTML = '';
+        delete targetSlot.dataset.skillInfo;
+        delete targetSlot.dataset.skillID;
+      }
+    }
+    dropSucceeded = true;
+  } else {
+    if (touchDrag.originSlot) {
+      touchDrag.originSlot.innerHTML = '';
+      delete touchDrag.originSlot.dataset.skillInfo;
+      delete touchDrag.originSlot.dataset.skillID;
+    }
+  }
+
+  touchDrag.clone.remove();
+  touchDrag.clone = null;
+  touchDrag.originImg = null;
+  touchDrag.originSlot = null;
+  draggedImageSrc = null;
+  sourceSlot = null;
+
+  updateUsedSkillLines();
+}, { passive: false });
+
+document.addEventListener('touchcancel', () => {
+  if (touchDrag.clone) touchDrag.clone.remove();
+  touchDrag.clone = null;
+  touchDrag.originImg = null;
+  touchDrag.originSlot = null;
+  draggedImageSrc = null;
+  sourceSlot = null;
+  dropSucceeded = false;
+  updateUsedSkillLines();
+});
+
+(function injectTouchCSS(){
+  try {
+    const style = document.createElement('style');
+    style.textContent = `
+.skill, .slot { touch-action: none; }
+.touch-drag-clone { transition: transform 0.06s linear; will-change: transform; }
+`;
+    document.head.appendChild(style);
+  } catch(e) {
+  }
+})();
+
 function generateShareableURL() {
     const slotSetup = [];
     document.querySelectorAll('.slot').forEach(slot => {
@@ -41,6 +184,8 @@ function loadSetupFromURL() {
                 sourceSlot = null;
                 dropSucceeded = false;
             });
+            enableTouchOnImg(img, slot);
+
             slot.innerHTML = '';
             slot.appendChild(img);
             slot.dataset.skillInfo = `${skill.skillClass}:${skill.skillTree}`;
@@ -106,6 +251,7 @@ document.querySelectorAll('.skill').forEach(skill => {
         sourceSlot = null;
         dropSucceeded = false;
     });
+    enableTouchOnImg(skill, null);
 });
 
 document.querySelectorAll('.slot').forEach(slot => {
@@ -155,6 +301,7 @@ document.querySelectorAll('.slot').forEach(slot => {
                     sourceSlot = null;
                     dropSucceeded = false;
                 });
+                enableTouchOnImg(newImg, slot);
                 slot.innerHTML = '';
                 slot.appendChild(newImg);
                 slot.dataset.skillInfo = newImg.dataset.skillInfo;
@@ -224,6 +371,7 @@ function setRandomFavicon() {
     }
     favicon.href = `icons/${randomSkill.fileName}`;
 }
+
 fetch('skills.json')
     .then(response => response.json())
     .then(skillData => {
@@ -291,6 +439,7 @@ fetch('skills.json')
                         sourceSlot = null;
                         dropSucceeded = false;
                     });
+                    enableTouchOnImg(img, null);
                     iconContainer.appendChild(img);
                 });
             });

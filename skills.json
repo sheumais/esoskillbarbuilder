@@ -679,31 +679,31 @@
     },
     "113": {
       "fileName": "ability_dragonknight_003_a.png",
-      "skillName": "Venomous Claw",
+      "skillName": "Searing Claw",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
     "114": {
-      "fileName": "ability_dragonknight_004_b.png",
-      "skillName": "Engulfing Flames",
+      "fileName": "ability_dragonknight_012_a.png",
+      "skillName": "Heart of Flame",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
     "115": {
-      "fileName": "ability_dragonknight_004_a.png",
-      "skillName": "Noxious Breath",
+      "fileName": "ability_dragonknight_012_b.png",
+      "skillName": "Soul of Flame",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
     "116": {
-      "fileName": "ability_dragonknight_005_b.png",
-      "skillName": "Chains of Devastation",
+      "fileName": "ability_dragonknight_016a.png",
+      "skillName": "Hearth and Home",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
     "117": {
-      "fileName": "ability_dragonknight_005_a.png",
-      "skillName": "Unrelenting Grip",
+      "fileName": "ability_dragonknight_016b.png",
+      "skillName": "Fire Keeper",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
@@ -715,7 +715,7 @@
     },
     "119": {
       "fileName": "ability_dragonknight_002_a.png",
-      "skillName": "Flames of Oblivion",
+      "skillName": "Incinerate",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
@@ -732,14 +732,14 @@
       "skillTree": "Draconic Power"
     },
     "122": {
-      "fileName": "ability_dragonknight_007_b.png",
-      "skillName": "Hardened Armor",
+      "fileName": "ability_dragonknight_004_b.png",
+      "skillName": "Engulfing Dragonfire",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "123": {
-      "fileName": "ability_dragonknight_007_a.png",
-      "skillName": "Volatile Armor",
+      "fileName": "ability_dragonknight_004_a.png",
+      "skillName": "Disintegrating Dragonfire",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
@@ -757,37 +757,37 @@
     },
     "126": {
       "fileName": "ability_dragonknight_011_a.png",
-      "skillName": "Coagulating Blood",
+      "skillName": "Blood of the Elder Dragon",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "127": {
       "fileName": "ability_dragonknight_011_b.png",
-      "skillName": "Green Dragon Blood",
+      "skillName": "Blood of the Green Dragon",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "128": {
       "fileName": "ability_dragonknight_008_a.png",
-      "skillName": "Dragon Fire Scale",
+      "skillName": "Protect the Brood",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "129": {
       "fileName": "ability_dragonknight_008_b.png",
-      "skillName": "Protective Plate",
+      "skillName": "Fleetstep Wings",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "130": {
-      "fileName": "ability_dragonknight_012_a.png",
-      "skillName": "Deep Breath",
+      "fileName": "ability_dragonknight_005_b.png",
+      "skillName": "Chains of Devastation",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
     "131": {
-      "fileName": "ability_dragonknight_012_b.png",
-      "skillName": "Draw Essence",
+      "fileName": "ability_dragonknight_005_a.png",
+      "skillName": "Chains of Dominance",
       "skillClass": "Dragonknight",
       "skillTree": "Draconic Power"
     },
@@ -805,13 +805,13 @@
     },
     "134": {
       "fileName": "ability_dragonknight_013_b.png",
-      "skillName": "Obsidian Shard",
+      "skillName": "Volcanic Ward",
       "skillClass": "Dragonknight",
       "skillTree": "Earthen Heart"
     },
     "135": {
       "fileName": "ability_dragonknight_013_a.png",
-      "skillName": "Stone Giant",
+      "skillName": "Magma Fist",
       "skillClass": "Dragonknight",
       "skillTree": "Earthen Heart"
     },
@@ -852,14 +852,14 @@
       "skillTree": "Earthen Heart"
     },
     "142": {
-      "fileName": "ability_dragonknight_016a.png",
-      "skillName": "Cinder Storm",
+      "fileName": "ability_dragonknight_007_b.png",
+      "skillName": "Earthshield Mantle",
       "skillClass": "Dragonknight",
       "skillTree": "Earthen Heart"
     },
     "143": {
-      "fileName": "ability_dragonknight_016b.png",
-      "skillName": "Eruption",
+      "fileName": "ability_dragonknight_007_a.png",
+      "skillName": "Shatterspike Mantle",
       "skillClass": "Dragonknight",
       "skillTree": "Earthen Heart"
     },

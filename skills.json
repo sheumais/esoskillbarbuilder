@@ -1590,1005 +1590,1035 @@
       "skillTree": "Bow"
     },
     "265": {
-      "fileName": "ability_destructionstaff_012_b.png",
-      "skillName": "Elemental Rage",
+      "fileName": "ability_destructionstaff_013_a.png",
+      "skillName": "Eye of Flame",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
     "266": {
-      "fileName": "ability_destructionstaff_012_a.png",
-      "skillName": "Eye of the Storm",
+      "fileName": "ability_destructionstaff_013_b.png",
+      "skillName": "Fiery Rage",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
     "267": {
+      "fileName": "ability_destructionstaff_014_a.png",
+      "skillName": "Eye of Frost",
+      "skillClass": "Weapon",
+      "skillTree": "Destruction Staff"
+    },
+    "268": {
+      "fileName": "ability_destructionstaff_014_b.png",
+      "skillName": "Icy Rage",
+      "skillClass": "Weapon",
+      "skillTree": "Destruction Staff"
+    },
+    "269": {
+      "fileName": "ability_destructionstaff_015_a.png",
+      "skillName": "Eye of Lightning",
+      "skillClass": "Weapon",
+      "skillTree": "Destruction Staff"
+    },
+    "270": {
+      "fileName": "ability_destructionstaff_015_b.png",
+      "skillName": "Thunderous Rage",
+      "skillClass": "Weapon",
+      "skillTree": "Destruction Staff"
+    },
+    "271": {
       "fileName": "ability_destructionstaff_001a.png",
       "skillName": "Crushing Shock",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "268": {
+    "272": {
       "fileName": "ability_destructionstaff_001b.png",
       "skillName": "Force Pulse",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "269": {
+    "273": {
       "fileName": "ability_destructionstaff_002a.png",
       "skillName": "Unstable Wall of Frost",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "270": {
+    "274": {
       "fileName": "ability_destructionstaff_002b.png",
       "skillName": "Blockade of Frost",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "271": {
+    "275": {
       "fileName": "ability_destructionstaff_003_a.png",
       "skillName": "Unstable Wall of Lightning",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "272": {
+    "276": {
       "fileName": "ability_destructionstaff_003_b.png",
       "skillName": "Blockade of Lightning",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "273": {
+    "277": {
       "fileName": "ability_destructionstaff_004_a.png",
       "skillName": "Unstable Wall of Fire",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "274": {
+    "278": {
       "fileName": "ability_destructionstaff_004_b.png",
       "skillName": "Blockade of Fire",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "275": {
+    "279": {
       "fileName": "ability_destructionstaff_005_a.png",
       "skillName": "Frost Clench",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "276": {
+    "280": {
       "fileName": "ability_destructionstaff_005_b.png",
       "skillName": "Frost Reach",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "277": {
+    "281": {
       "fileName": "ability_destructionstaff_006_a.png",
       "skillName": "Shock Clench",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "278": {
+    "282": {
       "fileName": "ability_destructionstaff_006_b.png",
       "skillName": "Shock Reach",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "279": {
+    "283": {
       "fileName": "ability_destructionstaff_007_a.png",
       "skillName": "Flame Clench",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "280": {
+    "284": {
       "fileName": "ability_destructionstaff_007_b.png",
       "skillName": "Flame Reach",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "281": {
+    "285": {
       "fileName": "ability_destructionstaff_008_a.png",
       "skillName": "Frost Ring",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "282": {
+    "286": {
       "fileName": "ability_destructionstaff_008_b.png",
       "skillName": "Frost Pulsar",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "283": {
+    "287": {
       "fileName": "ability_destructionstaff_009_a.png",
       "skillName": "Shock Ring",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "284": {
+    "288": {
       "fileName": "ability_destructionstaff_009_b.png",
       "skillName": "Storm Pulsar",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "285": {
+    "289": {
       "fileName": "ability_destructionstaff_010_a.png",
       "skillName": "Fire Ring",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "286": {
+    "290": {
       "fileName": "ability_destructionstaff_010_b.png",
       "skillName": "Flame Pulsar",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "287": {
+    "291": {
       "fileName": "ability_destructionstaff_011a.png",
       "skillName": "Elemental Drain",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "288": {
+    "292": {
       "fileName": "ability_destructionstaff_011b.png",
       "skillName": "Elemental Susceptibility",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "289": {
+    "293": {
       "fileName": "ability_grimoire_staffdestro.png",
       "skillName": "Elemental Explosion",
       "skillClass": "Weapon",
       "skillTree": "Destruction Staff"
     },
-    "290": {
+    "294": {
       "fileName": "ability_dualwield_006_a.png",
       "skillName": "Rend",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "291": {
+    "295": {
       "fileName": "ability_dualwield_006_b.png",
       "skillName": "Thrive in Chaos",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "292": {
+    "296": {
       "fileName": "ability_dualwield_002_a.png",
       "skillName": "Bloodthirst",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "293": {
+    "297": {
       "fileName": "ability_dualwield_002_b.png",
       "skillName": "Rapid Strikes",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "294": {
+    "298": {
       "fileName": "ability_dualwield_001_b.png",
       "skillName": "Blood Craze",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "295": {
+    "299": {
       "fileName": "ability_dualwield_001_a.png",
       "skillName": "Rending Slashes",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "296": {
+    "300": {
       "fileName": "ability_dualwield_005_b.png",
       "skillName": "Steel Tornado",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "297": {
+    "301": {
       "fileName": "ability_dualwield_005_a.png",
       "skillName": "Whirling Blades",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "298": {
+    "302": {
       "fileName": "ability_dualwield_004_b.png",
       "skillName": "Deadly Cloak",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "299": {
+    "303": {
       "fileName": "ability_dualwield_004_a.png",
       "skillName": "Quick Cloak",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "300": {
+    "304": {
       "fileName": "ability_dualwield_003_a.png",
       "skillName": "Flying Blade",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "301": {
+    "305": {
       "fileName": "ability_dualwield_003_b.png",
       "skillName": "Shrouded Daggers",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "302": {
+    "306": {
       "fileName": "ability_grimoire_dualwield.png",
       "skillName": "Traveling Knife",
       "skillClass": "Weapon",
       "skillTree": "Dual Wield"
     },
-    "303": {
+    "307": {
       "fileName": "ability_1handed_006_b.png",
       "skillName": "Shield Discipline",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "304": {
+    "308": {
       "fileName": "ability_1handed_006_a.png",
       "skillName": "Spell Wall",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "305": {
+    "309": {
       "fileName": "ability_1handed_002_b.png",
       "skillName": "Pierce Armor",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "306": {
+    "310": {
       "fileName": "ability_1handed_002_a.png",
       "skillName": "Ransack",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "307": {
+    "311": {
       "fileName": "ability_1handed_001_b.png",
       "skillName": "Deep Slash",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "308": {
+    "312": {
       "fileName": "ability_1handed_001_a.png",
       "skillName": "Heroic Slash",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "309": {
+    "313": {
       "fileName": "ability_1handed_004_b.png",
       "skillName": "Absorb Missile",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "310": {
+    "314": {
       "fileName": "ability_1handed_004_a.png",
       "skillName": "Defensive Stance",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "311": {
+    "315": {
       "fileName": "ability_1handed_003_b.png",
       "skillName": "Invasion",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "312": {
+    "316": {
       "fileName": "ability_1handed_003_a.png",
       "skillName": "Shielded Assault",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "313": {
+    "317": {
       "fileName": "ability_1handed_005_a.png",
       "skillName": "Power Slam",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "314": {
+    "318": {
       "fileName": "ability_1handed_005_b.png",
       "skillName": "Reverberating Bash",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "315": {
+    "319": {
       "fileName": "ability_grimoire_1handed.png",
       "skillName": "Shield Throw",
       "skillClass": "Weapon",
       "skillTree": "One Hand and Shield"
     },
-    "316": {
+    "320": {
       "fileName": "ability_restorationstaff_006_a.png",
       "skillName": "Life Giver",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "317": {
+    "321": {
       "fileName": "ability_restorationstaff_006_b.png",
       "skillName": "Light's Champion",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "318": {
+    "322": {
       "fileName": "ability_restorationstaff_004a.png",
       "skillName": "Healing Springs",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "319": {
+    "323": {
       "fileName": "ability_restorationstaff_004b.png",
       "skillName": "Illustrious Healing",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "320": {
+    "324": {
       "fileName": "ability_restorationstaff_002a.png",
       "skillName": "Radiating Regeneration",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "321": {
+    "325": {
       "fileName": "ability_restorationstaff_002b.png",
       "skillName": "Rapid Regeneration",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "322": {
+    "326": {
       "fileName": "ability_restorationstaff_003_a.png",
       "skillName": "Blessing of Restoration",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "323": {
+    "327": {
       "fileName": "ability_restorationstaff_003_b.png",
       "skillName": "Combat Prayer",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "324": {
+    "328": {
       "fileName": "ability_restorationstaff_001_a.png",
       "skillName": "Healing Ward",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "325": {
+    "329": {
       "fileName": "ability_restorationstaff_001_b.png",
       "skillName": "Ward Ally",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "326": {
+    "330": {
       "fileName": "ability_restorationstaff_005_b.png",
       "skillName": "Quick Siphon",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "327": {
+    "331": {
       "fileName": "ability_restorationstaff_005_a.png",
       "skillName": "Siphon Spirit",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "328": {
+    "332": {
       "fileName": "ability_grimoire_staffresto.png",
       "skillName": "Mender's Bond",
       "skillClass": "Weapon",
       "skillTree": "Restoration Staff"
     },
-    "329": {
+    "333": {
       "fileName": "ability_2handed_006_b.png",
       "skillName": "Berserker Rage",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "330": {
+    "334": {
       "fileName": "ability_2handed_006_a.png",
       "skillName": "Onslaught",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "331": {
+    "335": {
       "fileName": "ability_2handed_001_a.png",
       "skillName": "Dizzying Swing",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "332": {
+    "336": {
       "fileName": "ability_2handed_001_b.png",
       "skillName": "Wrecking Blow",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "333": {
+    "337": {
       "fileName": "ability_2handed_003_b.png",
       "skillName": "Critical Rush",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "334": {
+    "338": {
       "fileName": "ability_2handed_003_a.png",
       "skillName": "Stampede",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "335": {
+    "339": {
       "fileName": "ability_2handed_002_b.png",
       "skillName": "Brawler",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "336": {
+    "340": {
       "fileName": "ability_2handed_002_a.png",
       "skillName": "Carve",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "337": {
+    "341": {
       "fileName": "ability_2handed_004_a.png",
       "skillName": "Executioner",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "338": {
+    "342": {
       "fileName": "ability_2handed_004_b.png",
       "skillName": "Reverse Slice",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "339": {
+    "343": {
       "fileName": "ability_2handed_005_a.png",
       "skillName": "Forward Momentum",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "340": {
+    "344": {
       "fileName": "ability_2handed_005_b.png",
       "skillName": "Rally",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "341": {
+    "345": {
       "fileName": "ability_grimoire_2handed.png",
       "skillName": "Smash",
       "skillClass": "Weapon",
       "skillTree": "Two Handed"
     },
-    "342": {
+    "346": {
       "fileName": "ability_armor_001_a.png",
       "skillName": "Unstoppable Brute",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "343": {
+    "347": {
       "fileName": "ability_armor_001_b.png",
       "skillName": "Immovable",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "344": {
+    "348": {
       "fileName": "ability_armor_002_a.png",
       "skillName": "Shuffle",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "345": {
+    "349": {
       "fileName": "ability_armor_002_b.png",
       "skillName": "Elude",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "346": {
+    "350": {
       "fileName": "ability_armor_003_a.png",
       "skillName": "Dampen Magicka",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "347": {
+    "351": {
       "fileName": "ability_armor_003_b.png",
       "skillName": "Harness Magicka",
       "skillClass": "Armor",
       "skillTree": "Armor"
     },
-    "348": {
+    "352": {
       "fileName": "ability_otherclass_002_a.png",
       "skillName": "Shatter Soul",
       "skillClass": "World",
       "skillTree": "Soul Magic"
     },
-    "349": {
+    "353": {
       "fileName": "ability_otherclass_002_b.png",
       "skillName": "Soul Assault",
       "skillClass": "World",
       "skillTree": "Soul Magic"
     },
-    "350": {
+    "354": {
       "fileName": "ability_otherclass_001_b.png",
       "skillName": "Consuming Trap",
       "skillClass": "World",
       "skillTree": "Soul Magic"
     },
-    "351": {
+    "355": {
       "fileName": "ability_otherclass_001_a.png",
       "skillName": "Soul Splitting Trap",
       "skillClass": "World",
       "skillTree": "Soul Magic"
     },
-    "352": {
-      "fileName": "ability_u26_vampire_06_b.png",
-      "skillName": "Perfect Scion",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "353": {
-      "fileName": "ability_u26_vampire_06_a.png",
-      "skillName": "Swarming Scion",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "354": {
-      "fileName": "ability_u26_vampire_01_b.png",
-      "skillName": "Arterial Burst",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "355": {
-      "fileName": "ability_u26_vampire_01_a.png",
-      "skillName": "Blood for Blood",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
     "356": {
-      "fileName": "ability_u26_vampire_02_b.png",
-      "skillName": "Sated Fury",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "357": {
-      "fileName": "ability_u26_vampire_02_a.png",
-      "skillName": "Simmering Frenzy",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "358": {
-      "fileName": "ability_u26_vampire_03_a.png",
-      "skillName": "Drain Vigor",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "359": {
-      "fileName": "ability_u26_vampire_03_b.png",
-      "skillName": "Exhilarating Drain",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "360": {
-      "fileName": "ability_u26_vampire_04_a.png",
-      "skillName": "Hypnosis",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "361": {
-      "fileName": "ability_u26_vampire_04_b.png",
-      "skillName": "Stupefy",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "362": {
-      "fileName": "ability_u26_vampire_05_b.png",
-      "skillName": "Blood Mist",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "363": {
-      "fileName": "ability_u26_vampire_05_a.png",
-      "skillName": "Elusive Mist",
-      "skillClass": "World",
-      "skillTree": "Vampire"
-    },
-    "364": {
-      "fileName": "ability_fightersguild_005_b.png",
-      "skillName": "Dawnbreaker of Smiting",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "365": {
-      "fileName": "ability_fightersguild_005_a.png",
-      "skillName": "Flawless Dawnbreaker",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "366": {
-      "fileName": "ability_fightersguild_003_b.png",
-      "skillName": "Silver Leash",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "367": {
-      "fileName": "ability_fightersguild_003_a.png",
-      "skillName": "Silver Shards",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "368": {
-      "fileName": "ability_fightersguild_001_b.png",
-      "skillName": "Ring of Preservation",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "369": {
-      "fileName": "ability_fightersguild_001_a.png",
-      "skillName": "Turn Evil",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "370": {
-      "fileName": "ability_fightersguild_002_b.png",
-      "skillName": "Camouflaged Hunter",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "371": {
-      "fileName": "ability_fightersguild_002_a.png",
-      "skillName": "Evil Hunter",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "372": {
-      "fileName": "ability_fightersguild_004_a.png",
-      "skillName": "Barbed Trap",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "373": {
-      "fileName": "ability_fightersguild_004_b.png",
-      "skillName": "Lightweight Beast Trap",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "374": {
-      "fileName": "ability_grimoire_fightersguild.png",
-      "skillName": "Torchbearer",
-      "skillClass": "Guild",
-      "skillTree": "Fighters Guild"
-    },
-    "375": {
-      "fileName": "ability_mageguild_005_b.png",
-      "skillName": "Ice Comet",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "376": {
-      "fileName": "ability_mageguild_005_a.png",
-      "skillName": "Shooting Star",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "377": {
-      "fileName": "ability_mageguild_002_b.png",
-      "skillName": "Inner Light",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "378": {
-      "fileName": "ability_mageguild_002_a.png",
-      "skillName": "Radiant Magelight",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "379": {
-      "fileName": "ability_mageguild_004_a.png",
-      "skillName": "Degeneration",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "380": {
-      "fileName": "ability_mageguild_004_b.png",
-      "skillName": "Structured Entropy",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "381": {
-      "fileName": "ability_mageguild_001_b.png",
-      "skillName": "Scalding Rune",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "382": {
-      "fileName": "ability_mageguild_001_a.png",
-      "skillName": "Volcanic Rune",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "383": {
-      "fileName": "ability_mageguild_003_b.png",
-      "skillName": "Balance",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "384": {
-      "fileName": "ability_mageguild_003_a.png",
-      "skillName": "Spell Symmetry",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "385": {
-      "fileName": "ability_grimoire_magesguild.png",
-      "skillName": "Ulfsild's Contingency",
-      "skillClass": "Guild",
-      "skillTree": "Mages Guild"
-    },
-    "386": {
-      "fileName": "ability_psijic_001_a.png",
-      "skillName": "Precognition",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "387": {
-      "fileName": "ability_psijic_001_b.png",
-      "skillName": "Temporal Guard",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "388": {
-      "fileName": "ability_psijic_002_a.png",
-      "skillName": "Borrowed Time",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "389": {
-      "fileName": "ability_psijic_002_b.png",
-      "skillName": "Time Freeze",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "390": {
-      "fileName": "ability_psijic_003_b.png",
-      "skillName": "Crushing Weapon",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "391": {
-      "fileName": "ability_psijic_003_a.png",
-      "skillName": "Elemental Weapon",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "392": {
-      "fileName": "ability_psijic_005_a.png",
-      "skillName": "Channeled Acceleration",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "393": {
-      "fileName": "ability_psijic_005_b.png",
-      "skillName": "Race Against Time",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "394": {
-      "fileName": "ability_psijic_006_a.png",
-      "skillName": "Mend Spirit",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "395": {
-      "fileName": "ability_psijic_006_b.png",
-      "skillName": "Symbiosis",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "396": {
-      "fileName": "ability_psijic_004_a.png",
-      "skillName": "Deep Thoughts",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "397": {
-      "fileName": "ability_psijic_004_b.png",
-      "skillName": "Introspection",
-      "skillClass": "Guild",
-      "skillTree": "Psijic Order"
-    },
-    "398": {
-      "fileName": "ability_undaunted_001_a.png",
-      "skillName": "Overflowing Altar",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "399": {
-      "fileName": "ability_undaunted_001_b.png",
-      "skillName": "Sanguine Altar",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "400": {
-      "fileName": "ability_undaunted_003_a.png",
-      "skillName": "Shadow Silk",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "401": {
-      "fileName": "ability_undaunted_003_b.png",
-      "skillName": "Tangling Webs",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "402": {
-      "fileName": "ability_undaunted_002_a.png",
-      "skillName": "Inner Beast",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "403": {
-      "fileName": "ability_undaunted_002_b.png",
-      "skillName": "Inner Rage",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "404": {
-      "fileName": "ability_undaunted_005a.png",
-      "skillName": "Bone Surge",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "405": {
-      "fileName": "ability_undaunted_005b.png",
-      "skillName": "Spiked Bone Shield",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "406": {
-      "fileName": "ability_undaunted_004b.png",
-      "skillName": "Energy Orb",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "407": {
-      "fileName": "ability_undaunted_004_a.png",
-      "skillName": "Mystic Orb",
-      "skillClass": "Guild",
-      "skillTree": "Undaunted"
-    },
-    "408": {
-      "fileName": "ability_ava_003_a.png",
-      "skillName": "Aggressive Horn",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "409": {
-      "fileName": "ability_ava_003_b.png",
-      "skillName": "Sturdy Horn",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "410": {
-      "fileName": "ability_ava_002_b.png",
-      "skillName": "Charging Maneuver",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "411": {
-      "fileName": "ability_ava_002_a.png",
-      "skillName": "Retreating Maneuver",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "412": {
-      "fileName": "ability_ava_echoing_vigor.png",
-      "skillName": "Echoing Vigor",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "413": {
-      "fileName": "ability_ava_resolving_vigor.png",
-      "skillName": "Resolving Vigor",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "414": {
-      "fileName": "ability_ava_001_a.png",
-      "skillName": "Anti-Cavalry Caltrops",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "415": {
-      "fileName": "ability_ava_001_b.png",
-      "skillName": "Razor Caltrops",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "416": {
-      "fileName": "ability_ava_inevitable_detonation.png",
-      "skillName": "Inevitable Detonation",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "417": {
-      "fileName": "ability_ava_proximity_detonation.png",
-      "skillName": "Proximity Detonation",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "418": {
-      "fileName": "ability_grimoire_assault.png",
-      "skillName": "Trample",
-      "skillClass": "Alliance War",
-      "skillTree": "Assault"
-    },
-    "419": {
-      "fileName": "ability_ava_006_a.png",
-      "skillName": "Replenishing Barrier",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "420": {
-      "fileName": "ability_ava_006_b.png",
-      "skillName": "Reviving Barrier",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "421": {
-      "fileName": "ability_ava_004_a.png",
-      "skillName": "Propelling Shield",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "422": {
-      "fileName": "ability_ava_004_b.png",
-      "skillName": "Siege Weapon Shield",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "423": {
-      "fileName": "ability_ava_005_b.png",
-      "skillName": "Cleanse",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "424": {
-      "fileName": "ability_ava_005_a.png",
-      "skillName": "Efficient Purge",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "425": {
-      "fileName": "ability_ava_mystic_guard.png",
-      "skillName": "Mystic Guard",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "426": {
-      "fileName": "ability_ava_stalwart_guard.png",
-      "skillName": "Stalwart Guard",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "427": {
-      "fileName": "ability_ava_scorching_flare.png",
-      "skillName": "Blinding Flare",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "428": {
-      "fileName": "ability_ava_lingering_flare.png",
-      "skillName": "Lingering Flare",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "429": {
-      "fileName": "ability_grimoire_support.png",
-      "skillName": "Banner Bearer",
-      "skillClass": "Alliance War",
-      "skillTree": "Support"
-    },
-    "430": {
         "fileName": "ability_grimoire_soulmagic1.png",
         "skillName": "Wield Soul",
         "skillClass": "World",
         "skillTree": "Soul Magic"
     },
-    "431": {
+    "357": {
         "fileName": "ability_grimoire_soulmagic2.png",
         "skillName": "Soul Burst",
         "skillClass": "World",
         "skillTree": "Soul Magic"
+    },
+    "358": {
+      "fileName": "ability_u26_vampire_06_b.png",
+      "skillName": "Perfect Scion",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "359": {
+      "fileName": "ability_u26_vampire_06_a.png",
+      "skillName": "Swarming Scion",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "360": {
+      "fileName": "ability_u26_vampire_01_b.png",
+      "skillName": "Arterial Burst",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "361": {
+      "fileName": "ability_u26_vampire_01_a.png",
+      "skillName": "Blood for Blood",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "362": {
+      "fileName": "ability_u26_vampire_02_b.png",
+      "skillName": "Sated Fury",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "363": {
+      "fileName": "ability_u26_vampire_02_a.png",
+      "skillName": "Simmering Frenzy",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "364": {
+      "fileName": "ability_u26_vampire_03_a.png",
+      "skillName": "Drain Vigor",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "365": {
+      "fileName": "ability_u26_vampire_03_b.png",
+      "skillName": "Exhilarating Drain",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "366": {
+      "fileName": "ability_u26_vampire_04_a.png",
+      "skillName": "Hypnosis",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "367": {
+      "fileName": "ability_u26_vampire_04_b.png",
+      "skillName": "Stupefy",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "368": {
+      "fileName": "ability_u26_vampire_05_b.png",
+      "skillName": "Blood Mist",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "369": {
+      "fileName": "ability_u26_vampire_05_a.png",
+      "skillName": "Elusive Mist",
+      "skillClass": "World",
+      "skillTree": "Vampire"
+    },
+    "370": {
+      "fileName": "ability_fightersguild_005_b.png",
+      "skillName": "Dawnbreaker of Smiting",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "371": {
+      "fileName": "ability_fightersguild_005_a.png",
+      "skillName": "Flawless Dawnbreaker",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "372": {
+      "fileName": "ability_fightersguild_003_b.png",
+      "skillName": "Silver Leash",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "373": {
+      "fileName": "ability_fightersguild_003_a.png",
+      "skillName": "Silver Shards",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "374": {
+      "fileName": "ability_fightersguild_001_b.png",
+      "skillName": "Ring of Preservation",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "375": {
+      "fileName": "ability_fightersguild_001_a.png",
+      "skillName": "Turn Evil",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "376": {
+      "fileName": "ability_fightersguild_002_b.png",
+      "skillName": "Camouflaged Hunter",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "377": {
+      "fileName": "ability_fightersguild_002_a.png",
+      "skillName": "Evil Hunter",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "378": {
+      "fileName": "ability_fightersguild_004_a.png",
+      "skillName": "Barbed Trap",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "379": {
+      "fileName": "ability_fightersguild_004_b.png",
+      "skillName": "Lightweight Beast Trap",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "380": {
+      "fileName": "ability_grimoire_fightersguild.png",
+      "skillName": "Torchbearer",
+      "skillClass": "Guild",
+      "skillTree": "Fighters Guild"
+    },
+    "381": {
+      "fileName": "ability_mageguild_005_b.png",
+      "skillName": "Ice Comet",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "382": {
+      "fileName": "ability_mageguild_005_a.png",
+      "skillName": "Shooting Star",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "383": {
+      "fileName": "ability_mageguild_002_b.png",
+      "skillName": "Inner Light",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "384": {
+      "fileName": "ability_mageguild_002_a.png",
+      "skillName": "Radiant Magelight",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "385": {
+      "fileName": "ability_mageguild_004_a.png",
+      "skillName": "Degeneration",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "386": {
+      "fileName": "ability_mageguild_004_b.png",
+      "skillName": "Structured Entropy",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "387": {
+      "fileName": "ability_mageguild_001_b.png",
+      "skillName": "Scalding Rune",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "388": {
+      "fileName": "ability_mageguild_001_a.png",
+      "skillName": "Volcanic Rune",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "389": {
+      "fileName": "ability_mageguild_003_b.png",
+      "skillName": "Balance",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "390": {
+      "fileName": "ability_mageguild_003_a.png",
+      "skillName": "Spell Symmetry",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "391": {
+      "fileName": "ability_grimoire_magesguild.png",
+      "skillName": "Ulfsild's Contingency",
+      "skillClass": "Guild",
+      "skillTree": "Mages Guild"
+    },
+    "392": {
+      "fileName": "ability_psijic_001_a.png",
+      "skillName": "Precognition",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "393": {
+      "fileName": "ability_psijic_001_b.png",
+      "skillName": "Temporal Guard",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "394": {
+      "fileName": "ability_psijic_002_a.png",
+      "skillName": "Borrowed Time",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "395": {
+      "fileName": "ability_psijic_002_b.png",
+      "skillName": "Time Freeze",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "396": {
+      "fileName": "ability_psijic_003_b.png",
+      "skillName": "Crushing Weapon",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "397": {
+      "fileName": "ability_psijic_003_a.png",
+      "skillName": "Elemental Weapon",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "398": {
+      "fileName": "ability_psijic_005_a.png",
+      "skillName": "Channeled Acceleration",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "399": {
+      "fileName": "ability_psijic_005_b.png",
+      "skillName": "Race Against Time",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "400": {
+      "fileName": "ability_psijic_006_a.png",
+      "skillName": "Mend Spirit",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "401": {
+      "fileName": "ability_psijic_006_b.png",
+      "skillName": "Symbiosis",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "402": {
+      "fileName": "ability_psijic_004_a.png",
+      "skillName": "Deep Thoughts",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "403": {
+      "fileName": "ability_psijic_004_b.png",
+      "skillName": "Introspection",
+      "skillClass": "Guild",
+      "skillTree": "Psijic Order"
+    },
+    "404": {
+      "fileName": "ability_undaunted_001_a.png",
+      "skillName": "Overflowing Altar",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "405": {
+      "fileName": "ability_undaunted_001_b.png",
+      "skillName": "Sanguine Altar",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "406": {
+      "fileName": "ability_undaunted_003_a.png",
+      "skillName": "Shadow Silk",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "407": {
+      "fileName": "ability_undaunted_003_b.png",
+      "skillName": "Tangling Webs",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "408": {
+      "fileName": "ability_undaunted_002_a.png",
+      "skillName": "Inner Beast",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "409": {
+      "fileName": "ability_undaunted_002_b.png",
+      "skillName": "Inner Rage",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "410": {
+      "fileName": "ability_undaunted_005a.png",
+      "skillName": "Bone Surge",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "411": {
+      "fileName": "ability_undaunted_005b.png",
+      "skillName": "Spiked Bone Shield",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "412": {
+      "fileName": "ability_undaunted_004b.png",
+      "skillName": "Energy Orb",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "413": {
+      "fileName": "ability_undaunted_004_a.png",
+      "skillName": "Mystic Orb",
+      "skillClass": "Guild",
+      "skillTree": "Undaunted"
+    },
+    "414": {
+      "fileName": "ability_ava_003_a.png",
+      "skillName": "Aggressive Horn",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "415": {
+      "fileName": "ability_ava_003_b.png",
+      "skillName": "Sturdy Horn",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "416": {
+      "fileName": "ability_ava_002_b.png",
+      "skillName": "Charging Maneuver",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "417": {
+      "fileName": "ability_ava_002_a.png",
+      "skillName": "Retreating Maneuver",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "418": {
+      "fileName": "ability_ava_echoing_vigor.png",
+      "skillName": "Echoing Vigor",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "419": {
+      "fileName": "ability_ava_resolving_vigor.png",
+      "skillName": "Resolving Vigor",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "420": {
+      "fileName": "ability_ava_001_a.png",
+      "skillName": "Anti-Cavalry Caltrops",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "421": {
+      "fileName": "ability_ava_001_b.png",
+      "skillName": "Razor Caltrops",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "422": {
+      "fileName": "ability_ava_inevitable_detonation.png",
+      "skillName": "Inevitable Detonation",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "423": {
+      "fileName": "ability_ava_proximity_detonation.png",
+      "skillName": "Proximity Detonation",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "424": {
+      "fileName": "ability_grimoire_assault.png",
+      "skillName": "Trample",
+      "skillClass": "Alliance War",
+      "skillTree": "Assault"
+    },
+    "425": {
+      "fileName": "ability_ava_006_a.png",
+      "skillName": "Replenishing Barrier",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "426": {
+      "fileName": "ability_ava_006_b.png",
+      "skillName": "Reviving Barrier",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "427": {
+      "fileName": "ability_ava_004_a.png",
+      "skillName": "Propelling Shield",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "428": {
+      "fileName": "ability_ava_004_b.png",
+      "skillName": "Siege Weapon Shield",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "429": {
+      "fileName": "ability_ava_005_b.png",
+      "skillName": "Cleanse",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "430": {
+      "fileName": "ability_ava_005_a.png",
+      "skillName": "Efficient Purge",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "431": {
+      "fileName": "ability_ava_mystic_guard.png",
+      "skillName": "Mystic Guard",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "432": {
+      "fileName": "ability_ava_stalwart_guard.png",
+      "skillName": "Stalwart Guard",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "433": {
+      "fileName": "ability_ava_scorching_flare.png",
+      "skillName": "Blinding Flare",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "434": {
+      "fileName": "ability_ava_lingering_flare.png",
+      "skillName": "Lingering Flare",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "435": {
+      "fileName": "ability_grimoire_support.png",
+      "skillName": "Banner Bearer",
+      "skillClass": "Alliance War",
+      "skillTree": "Support"
+    },
+    "436": {
+        "fileName": "u38_ability_armor_ultimatetransfer.png",
+        "skillName": "Ultimate Transfer",
+        "skillClass": "Misc",
+        "skillTree": "Misc"
     }
 }

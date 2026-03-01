@@ -376,7 +376,7 @@ fetch('skills.json')
     .then(response => response.json())
     .then(skillData => {
         const skillPool = document.querySelector('.skill-pool');
-        const classOrder = ["Arcanist", "Nightblade", "Templar", "Dragonknight", "Sorcerer", "Warden", "Necromancer", "Weapon", "Armor", "World", "Guild", "Alliance War"];
+        const classOrder = ["Arcanist", "Nightblade", "Templar", "Dragonknight", "Sorcerer", "Warden", "Necromancer", "Weapon", "Armor", "World", "Guild", "Alliance War", "Misc"];
 
         Object.entries(skillData).forEach(([id, data]) => {
             skillTable[id] = data;

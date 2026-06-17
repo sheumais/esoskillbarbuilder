@@ -685,13 +685,13 @@
     },
     "114": {
       "fileName": "ability_dragonknight_012_a.png",
-      "skillName": "Heart of Flame",
+      "skillName": "Soul of Flame",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
     "115": {
       "fileName": "ability_dragonknight_012_b.png",
-      "skillName": "Soul of Flame",
+      "skillName": "Heart of Flame",
       "skillClass": "Dragonknight",
       "skillTree": "Ardent Flame"
     },
@@ -984,8 +984,8 @@
       "skillTree": "Dark Magic"
     },
     "164": {
-      "fileName": "ability_sorcerer_dark_exchange.png",
-      "skillName": "Dark Exchange",
+      "fileName": "ability_sorcerer_dark_conversion.png",
+      "skillName": "Dark Conversion",
       "skillClass": "Sorcerer",
       "skillTree": "Dark Magic"
     },
@@ -2620,5 +2620,77 @@
         "skillName": "Ultimate Transfer",
         "skillClass": "Misc",
         "skillTree": "Misc"
+    },
+    "437": {
+      "fileName": "ability_werewolf_001_a.png",
+      "skillName": "Pack Leader",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "438": {
+      "fileName": "ability_werewolf_001_b.png",
+      "skillName": "Werewolf Berserker",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "439": {
+      "fileName": "u50_ability_werewolf_brutal_pounce.png",
+      "skillName": "Brutal Pounce",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "440": {
+      "fileName": "u50_ability_werewolf_feral_pounce.png",
+      "skillName": "Feral Pounce",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "441": {
+      "fileName": "ability_werewolf_004_b.png",
+      "skillName": "Hircine's Rage",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "442": {
+      "fileName": "ability_werewolf_004_c.png",
+      "skillName": "Hircine's Fortitude",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "443": {
+      "fileName": "ability_werewolf_003_a.png",
+      "skillName": "Deafening Roar",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "444": {
+      "fileName": "ability_werewolf_003_b.png",
+      "skillName": "Ferocious Roar",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "445": {
+      "fileName": "ability_werewolf_002_rend_a.png",
+      "skillName": "Rip and Tear",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "446": {
+      "fileName": "ability_werewolf_002_rend_b.png",
+      "skillName": "Bloody Gnash",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "447": {
+      "fileName": "u50_ability_werewolf_raking_claws.png",
+      "skillName": "Bloodclaws",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
+    },
+    "448": {
+      "fileName": "u50_ability_werewolf_claws_of_anguish.png",
+      "skillName": "Claw Fury",
+      "skillClass": "World",
+      "skillTree": "Werewolf"
     }
 }
